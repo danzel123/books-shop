@@ -1,0 +1,29 @@
+.cart-title{
+
+}
+cart-goods-text{
+    font-size: 16px;
+}
+
+.ui.popup{
+    max-width: 100vw;
+    max-height: 45vh;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+.cart-block-with-img{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.cart-block{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ui.popup.empty-cart{
+    overflow: hidden;
+}

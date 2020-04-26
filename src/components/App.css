@@ -1,0 +1,15 @@
+.ui[class*="right fixed"].filter.menu {
+    top: 100px;
+    height: auto;
+    background-color: #f3f3f3;
+    margin-right: 10px;
+
+}
+
+.ui.container{
+    position: relative;
+}
+
+.ui.four.cards{
+    margin-top: 85px;
+}
