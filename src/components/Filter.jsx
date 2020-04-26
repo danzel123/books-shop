@@ -3,7 +3,7 @@ import { Input, Menu } from 'semantic-ui-react'
 
 const Filter = ({setFilter, filterBy, searchQuery, setQuery}) => {
         return(
-            <Menu secondary className={'filter'} fixed={'right'} vertical>
+            <Menu secondary className={'filter'}>
                 <Menu.Item
                     name='all'
                     active={filterBy === 'all'}

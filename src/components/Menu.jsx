@@ -27,7 +27,7 @@ const CartComponent = ({id, image, title, price, count, delBook, }) => {
 const MenuComponent = ({totalPrice, totalBooksinCart, items}) =>  {
     if(!totalBooksinCart){
         return (
-            <Menu size='large' className={'main-menu'} fixed={"top"}>
+            <Menu size='large' className={'main-menu'}>
                 <Menu.Item
                     name='Магазин книг'
                 />

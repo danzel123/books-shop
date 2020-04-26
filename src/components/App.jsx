@@ -22,7 +22,7 @@ class App extends Component {
         return(
             <Container>
                 <header className={'main-header'}>
-                    <Menu floated={"right"}/>
+                    <Menu/>
                     <Filter setFilter={setFilter} className={"header-filter"}/>
                 </header>
                 <Card.Group itemsPerRow={4}>
